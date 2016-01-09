@@ -1,473 +1,487 @@
 <html>
 <body>
-<head></head>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+</head>
 
-<table class="sparql" border="1">
-  <tr>
-    <th>bird_name</th>
-    <th>image</th>
-    <th>consv_status</th>
-    <th>consv_status_syst</th>
-    <th>kingdom</th>
-    <th>phylum</th>
-    <th>class</th>
-    <th>order</th>
-    <th>family</th>
-    <th>genus</th>
-    <th>species</th>
-    <th>bin_name</th>
-    <th>bin_auth</th>
-  </tr>
-  <tr>
-    <td>"Eurasian coot"@en</td>
-    <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Gruiformes">http://dbpedia.org/resource/Gruiformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Rallidae">http://dbpedia.org/resource/Rallidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Coot">http://dbpedia.org/resource/Coot</a></td>
-    <td>"F. atra"@en</td>
-    <td>"Fulica atra"@en</td>
-    <td><a href="http://dbpedia.org/resource/Carl_Linnaeus">http://dbpedia.org/resource/Carl_Linnaeus</a></td>
-  </tr>
-  <tr>
-    <td>"Eurasian coot"@en</td>
-    <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Gruiformes">http://dbpedia.org/resource/Gruiformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Rallidae">http://dbpedia.org/resource/Rallidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Coot">http://dbpedia.org/resource/Coot</a></td>
-    <td>"F. atra"@en</td>
-    <td>"Fulica atra"@en</td>
-    <td><a href="http://dbpedia.org/resource/10th_edition_of_Systema_Naturae">http://dbpedia.org/resource/10th_edition_of_Systema_Naturae</a></td>
-  </tr>
-  <tr>
-    <td>"Eurasian oystercatcher"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Haematopus_ostralegus_Norway.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Haematopus_ostralegus_Norway.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Charadriiformes">http://dbpedia.org/resource/Charadriiformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Oystercatcher">http://dbpedia.org/resource/Oystercatcher</a></td>
-    <td><a href="http://dbpedia.org/resource/Oystercatcher">http://dbpedia.org/resource/Oystercatcher</a></td>
-    <td>"H. ostralegus"@en</td>
-    <td>"Haematopus ostralegus"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Cotton pygmy goose"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Cotton_Pygmy-goose.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Cotton_Pygmy-goose.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Pygmy_goose">http://dbpedia.org/resource/Pygmy_goose</a></td>
-    <td>"N. coromandelianus"@en</td>
-    <td>"Nettapus coromandelianus"@en</td>
-    <td>"Gmelin, 1789"@en</td>
-  </tr>
-  <tr>
-    <td>"Spot-billed duck"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. poecilorhyncha"@en</td>
-    <td>"Anas poecilorhyncha"@en</td>
-    <td>"Forster, 1781"@en</td>
-  </tr>
-  <tr>
-    <td>"Spot-billed duck"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. poecilorhyncha"@en</td>
-    <td>"Anas poecilorhyncha"@en</td>
-    <td>"Forster, 1781"@en</td>
-  </tr>
-  <tr>
-    <td>"Falcated duck"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300</a></td>
-    <td>"NT"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. falcata"@en</td>
-    <td>"Anas falcata"@en</td>
-    <td>"Georgi, 1775"@en</td>
-  </tr>
-  <tr>
-    <td>"Falcated duck"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300</a></td>
-    <td>"NT"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. falcata"@en</td>
-    <td>"Anas falcata"@en</td>
-    <td>"Georgi, 1775"@en</td>
-  </tr>
-  <tr>
-    <td>"Kentish plover"@en</td>
-    <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Charadriiformes">http://dbpedia.org/resource/Charadriiformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Charadriidae">http://dbpedia.org/resource/Charadriidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Charadrius">http://dbpedia.org/resource/Charadrius</a></td>
-    <td>"C. alexandrinus"@en</td>
-    <td>"Charadrius alexandrinus"@en</td>
-    <td><a href="http://dbpedia.org/resource/Carl_Linnaeus">http://dbpedia.org/resource/Carl_Linnaeus</a></td>
-  </tr>
-  <tr>
-    <td>"Kentish plover"@en</td>
-    <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Charadriiformes">http://dbpedia.org/resource/Charadriiformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Charadriidae">http://dbpedia.org/resource/Charadriidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Charadrius">http://dbpedia.org/resource/Charadrius</a></td>
-    <td>"C. alexandrinus"@en</td>
-    <td>"Charadrius alexandrinus"@en</td>
-    <td><a href="http://dbpedia.org/resource/10th_edition_of_Systema_Naturae">http://dbpedia.org/resource/10th_edition_of_Systema_Naturae</a></td>
-  </tr>
-  <tr>
-    <td>"Gadwall"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. strepera"@en</td>
-    <td>"Anas strepera"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Gadwall"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. strepera"@en</td>
-    <td>"Anas strepera"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Garganey"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. querquedula"@en</td>
-    <td>"Anas querquedula"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Garganey"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. querquedula"@en</td>
-    <td>"Anas querquedula"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"White-breasted waterhen"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Gruiformes">http://dbpedia.org/resource/Gruiformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Rallidae">http://dbpedia.org/resource/Rallidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Amaurornis">http://dbpedia.org/resource/Amaurornis</a></td>
-    <td>"A. phoenicurus"@en</td>
-    <td>"Amaurornis phoenicurus"@en</td>
-    <td>"Pennant, 1769"@en</td>
-  </tr>
-  <tr>
-    <td>"Northern pintail"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. acuta"@en</td>
-    <td>"Anas acuta"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Northern pintail"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. acuta"@en</td>
-    <td>"Anas acuta"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Northern pintail"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"Anas acuta"@en</td>
-    <td>"Anas acuta"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Northern pintail"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"Anas acuta"@en</td>
-    <td>"Anas acuta"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Black-necked grebe"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Black-necked_Grebe_Schwarzhalstaucher.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Black-necked_Grebe_Schwarzhalstaucher.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Grebe">http://dbpedia.org/resource/Grebe</a></td>
-    <td><a href="http://dbpedia.org/resource/Grebe">http://dbpedia.org/resource/Grebe</a></td>
-    <td><a href="http://dbpedia.org/resource/Podiceps">http://dbpedia.org/resource/Podiceps</a></td>
-    <td>"P. nigricollis"@en</td>
-    <td>"Podiceps nigricollis"@en</td>
-    <td>"Brehm, 1831"@en</td>
-  </tr>
-  <tr>
-    <td>"Common merganser"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Mergus">http://dbpedia.org/resource/Mergus</a></td>
-    <td>"M. merganser"@en</td>
-    <td>"Mergus merganser"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Common merganser"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Merginae">http://dbpedia.org/resource/Merginae</a></td>
-    <td><a href="http://dbpedia.org/resource/Mergus">http://dbpedia.org/resource/Mergus</a></td>
-    <td>"M. merganser"@en</td>
-    <td>"Mergus merganser"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Northern shoveler"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. clypeata"@en</td>
-    <td>"Anas clypeata"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Northern shoveler"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. clypeata"@en</td>
-    <td>"Anas clypeata"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Eurasian wigeon"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. penelope"@en</td>
-    <td>"Anas penelope"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Eurasian wigeon"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
-    <td>"A. penelope"@en</td>
-    <td>"Anas penelope"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Eurasian wigeon"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
-    <td><a href="http://dbpedia.org/resource/Wigeon">http://dbpedia.org/resource/Wigeon</a></td>
-    <td>"A. penelope"@en</td>
-    <td>"Anas penelope"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Eurasian wigeon"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
-    <td><a href="http://dbpedia.org/resource/Wigeon">http://dbpedia.org/resource/Wigeon</a></td>
-    <td>"A. penelope"@en</td>
-    <td>"Anas penelope"@en</td>
-    <td>"Linnaeus, 1758"@en</td>
-  </tr>
-  <tr>
-    <td>"Great egret"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Pelecaniformes">http://dbpedia.org/resource/Pelecaniformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Heron">http://dbpedia.org/resource/Heron</a></td>
-    <td><a href="http://dbpedia.org/resource/Ardea_(genus)">http://dbpedia.org/resource/Ardea_(genus)</a></td>
-    <td>"A. alba"@en</td>
-    <td>"Ardea alba"@en</td>
-    <td><a href="http://dbpedia.org/resource/Carl_Linnaeus">http://dbpedia.org/resource/Carl_Linnaeus</a></td>
-  </tr>
-  <tr>
-    <td>"Great egret"@en</td>
-    <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300</a></td>
-    <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
-    <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
-    <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
-    <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
-    <td><a href="http://dbpedia.org/resource/Pelecaniformes">http://dbpedia.org/resource/Pelecaniformes</a></td>
-    <td><a href="http://dbpedia.org/resource/Heron">http://dbpedia.org/resource/Heron</a></td>
-    <td><a href="http://dbpedia.org/resource/Ardea_(genus)">http://dbpedia.org/resource/Ardea_(genus)</a></td>
-    <td>"A. alba"@en</td>
-    <td>"Ardea alba"@en</td>
-    <td><a href="http://dbpedia.org/resource/10th_edition_of_Systema_Naturae">http://dbpedia.org/resource/10th_edition_of_Systema_Naturae</a></td>
-  </tr>
+<table class="sparql display">
+    <thead>
+        <tr>
+            <th>bird_name</th>
+            <th>image</th>
+            <th>consv_status</th>
+            <th>consv_status_syst</th>
+            <th>kingdom</th>
+            <th>phylum</th>
+            <th>class</th>
+            <th>order</th>
+            <th>family</th>
+            <th>genus</th>
+            <th>species</th>
+            <th>bin_name</th>
+            <th>bin_auth</th>
+        </tr>
+    </thead>   
+    <tbody> 
+        <tr>
+        <td>"Eurasian coot"@en</td>
+        <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Gruiformes">http://dbpedia.org/resource/Gruiformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Rallidae">http://dbpedia.org/resource/Rallidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Coot">http://dbpedia.org/resource/Coot</a></td>
+        <td>"F. atra"@en</td>
+        <td>"Fulica atra"@en</td>
+        <td><a href="http://dbpedia.org/resource/Carl_Linnaeus">http://dbpedia.org/resource/Carl_Linnaeus</a></td>
+        </tr>
+        <tr>
+        <td>"Eurasian coot"@en</td>
+        <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Eurasian_Coot.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Gruiformes">http://dbpedia.org/resource/Gruiformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Rallidae">http://dbpedia.org/resource/Rallidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Coot">http://dbpedia.org/resource/Coot</a></td>
+        <td>"F. atra"@en</td>
+        <td>"Fulica atra"@en</td>
+        <td><a href="http://dbpedia.org/resource/10th_edition_of_Systema_Naturae">http://dbpedia.org/resource/10th_edition_of_Systema_Naturae</a></td>
+        </tr>
+        <tr>
+        <td>"Eurasian oystercatcher"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Haematopus_ostralegus_Norway.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Haematopus_ostralegus_Norway.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Charadriiformes">http://dbpedia.org/resource/Charadriiformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Oystercatcher">http://dbpedia.org/resource/Oystercatcher</a></td>
+        <td><a href="http://dbpedia.org/resource/Oystercatcher">http://dbpedia.org/resource/Oystercatcher</a></td>
+        <td>"H. ostralegus"@en</td>
+        <td>"Haematopus ostralegus"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Cotton pygmy goose"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Cotton_Pygmy-goose.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Cotton_Pygmy-goose.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Pygmy_goose">http://dbpedia.org/resource/Pygmy_goose</a></td>
+        <td>"N. coromandelianus"@en</td>
+        <td>"Nettapus coromandelianus"@en</td>
+        <td>"Gmelin, 1789"@en</td>
+        </tr>
+        <tr>
+        <td>"Spot-billed duck"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. poecilorhyncha"@en</td>
+        <td>"Anas poecilorhyncha"@en</td>
+        <td>"Forster, 1781"@en</td>
+        </tr>
+        <tr>
+        <td>"Spot-billed duck"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Indian_spot-billed_duck.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. poecilorhyncha"@en</td>
+        <td>"Anas poecilorhyncha"@en</td>
+        <td>"Forster, 1781"@en</td>
+        </tr>
+        <tr>
+        <td>"Falcated duck"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300</a></td>
+        <td>"NT"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. falcata"@en</td>
+        <td>"Anas falcata"@en</td>
+        <td>"Georgi, 1775"@en</td>
+        </tr>
+        <tr>
+        <td>"Falcated duck"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Falcated_duck_1.jpg?width=300</a></td>
+        <td>"NT"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. falcata"@en</td>
+        <td>"Anas falcata"@en</td>
+        <td>"Georgi, 1775"@en</td>
+        </tr>
+        <tr>
+        <td>"Kentish plover"@en</td>
+        <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Charadriiformes">http://dbpedia.org/resource/Charadriiformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Charadriidae">http://dbpedia.org/resource/Charadriidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Charadrius">http://dbpedia.org/resource/Charadrius</a></td>
+        <td>"C. alexandrinus"@en</td>
+        <td>"Charadrius alexandrinus"@en</td>
+        <td><a href="http://dbpedia.org/resource/Carl_Linnaeus">http://dbpedia.org/resource/Carl_Linnaeus</a></td>
+        </tr>
+        <tr>
+        <td>"Kentish plover"@en</td>
+        <td><a href="http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300">http://en.wikipedia.org/wiki/Special:FilePath/Snowy_Plover_srgb.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Charadriiformes">http://dbpedia.org/resource/Charadriiformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Charadriidae">http://dbpedia.org/resource/Charadriidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Charadrius">http://dbpedia.org/resource/Charadrius</a></td>
+        <td>"C. alexandrinus"@en</td>
+        <td>"Charadrius alexandrinus"@en</td>
+        <td><a href="http://dbpedia.org/resource/10th_edition_of_Systema_Naturae">http://dbpedia.org/resource/10th_edition_of_Systema_Naturae</a></td>
+        </tr>
+        <tr>
+        <td>"Gadwall"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. strepera"@en</td>
+        <td>"Anas strepera"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Gadwall"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Gadwall-Anas-strepera.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. strepera"@en</td>
+        <td>"Anas strepera"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Garganey"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. querquedula"@en</td>
+        <td>"Anas querquedula"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Garganey"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Garganey_(Anas_querquedula)_RWD3.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. querquedula"@en</td>
+        <td>"Anas querquedula"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"White-breasted waterhen"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Gruiformes">http://dbpedia.org/resource/Gruiformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Rallidae">http://dbpedia.org/resource/Rallidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Amaurornis">http://dbpedia.org/resource/Amaurornis</a></td>
+        <td>"A. phoenicurus"@en</td>
+        <td>"Amaurornis phoenicurus"@en</td>
+        <td>"Pennant, 1769"@en</td>
+        </tr>
+        <tr>
+        <td>"Northern pintail"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. acuta"@en</td>
+        <td>"Anas acuta"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Northern pintail"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. acuta"@en</td>
+        <td>"Anas acuta"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Northern pintail"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"Anas acuta"@en</td>
+        <td>"Anas acuta"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Northern pintail"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern_Pintails_(Male_&amp;_Female)_I_IMG_0911.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"Anas acuta"@en</td>
+        <td>"Anas acuta"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Black-necked grebe"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Black-necked_Grebe_Schwarzhalstaucher.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Black-necked_Grebe_Schwarzhalstaucher.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Grebe">http://dbpedia.org/resource/Grebe</a></td>
+        <td><a href="http://dbpedia.org/resource/Grebe">http://dbpedia.org/resource/Grebe</a></td>
+        <td><a href="http://dbpedia.org/resource/Podiceps">http://dbpedia.org/resource/Podiceps</a></td>
+        <td>"P. nigricollis"@en</td>
+        <td>"Podiceps nigricollis"@en</td>
+        <td>"Brehm, 1831"@en</td>
+        </tr>
+        <tr>
+        <td>"Common merganser"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Mergus">http://dbpedia.org/resource/Mergus</a></td>
+        <td>"M. merganser"@en</td>
+        <td>"Mergus merganser"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Common merganser"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Mergus_merganser_-Sandwell_-England_-male-8.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Merginae">http://dbpedia.org/resource/Merginae</a></td>
+        <td><a href="http://dbpedia.org/resource/Mergus">http://dbpedia.org/resource/Mergus</a></td>
+        <td>"M. merganser"@en</td>
+        <td>"Mergus merganser"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Northern shoveler"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. clypeata"@en</td>
+        <td>"Anas clypeata"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Northern shoveler"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Northern-Shoveler_Anas-clypeata.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. clypeata"@en</td>
+        <td>"Anas clypeata"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Eurasian wigeon"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. penelope"@en</td>
+        <td>"Anas penelope"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Eurasian wigeon"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Anas">http://dbpedia.org/resource/Anas</a></td>
+        <td>"A. penelope"@en</td>
+        <td>"Anas penelope"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Eurasian wigeon"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatidae">http://dbpedia.org/resource/Anatidae</a></td>
+        <td><a href="http://dbpedia.org/resource/Wigeon">http://dbpedia.org/resource/Wigeon</a></td>
+        <td>"A. penelope"@en</td>
+        <td>"Anas penelope"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Eurasian wigeon"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Anas_penelope_kuribo_cropped.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Anseriformes">http://dbpedia.org/resource/Anseriformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Anatinae">http://dbpedia.org/resource/Anatinae</a></td>
+        <td><a href="http://dbpedia.org/resource/Wigeon">http://dbpedia.org/resource/Wigeon</a></td>
+        <td>"A. penelope"@en</td>
+        <td>"Anas penelope"@en</td>
+        <td>"Linnaeus, 1758"@en</td>
+        </tr>
+        <tr>
+        <td>"Great egret"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Pelecaniformes">http://dbpedia.org/resource/Pelecaniformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Heron">http://dbpedia.org/resource/Heron</a></td>
+        <td><a href="http://dbpedia.org/resource/Ardea_(genus)">http://dbpedia.org/resource/Ardea_(genus)</a></td>
+        <td>"A. alba"@en</td>
+        <td>"Ardea alba"@en</td>
+        <td><a href="http://dbpedia.org/resource/Carl_Linnaeus">http://dbpedia.org/resource/Carl_Linnaeus</a></td>
+        </tr>
+        <tr>
+        <td>"Great egret"@en</td>
+        <td><a href="http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Great_egret_(Ardea_alba)_Tobago.jpg?width=300</a></td>
+        <td>"LC"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td>"IUCN3.1"^^&lt;http://www.w3.org/2001/XMLSchema#string&gt;</td>
+        <td><a href="http://dbpedia.org/resource/Animal">http://dbpedia.org/resource/Animal</a></td>
+        <td><a href="http://dbpedia.org/resource/Chordate">http://dbpedia.org/resource/Chordate</a></td>
+        <td><a href="http://dbpedia.org/resource/Bird">http://dbpedia.org/resource/Bird</a></td>
+        <td><a href="http://dbpedia.org/resource/Pelecaniformes">http://dbpedia.org/resource/Pelecaniformes</a></td>
+        <td><a href="http://dbpedia.org/resource/Heron">http://dbpedia.org/resource/Heron</a></td>
+        <td><a href="http://dbpedia.org/resource/Ardea_(genus)">http://dbpedia.org/resource/Ardea_(genus)</a></td>
+        <td>"A. alba"@en</td>
+        <td>"Ardea alba"@en</td>
+        <td><a href="http://dbpedia.org/resource/10th_edition_of_Systema_Naturae">http://dbpedia.org/resource/10th_edition_of_Systema_Naturae</a></td>
+        </tr>
+    </tbody>
 </table>
+<!-- Data Tables initialisation -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.sparql').DataTable();
+    });
+</script>
 </body>
 </html>
