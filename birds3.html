@@ -480,7 +480,9 @@
 <!-- Data Tables initialisation -->
 <script type="text/javascript">
     $(document).ready(function() {
-        $('.sparql').DataTable();
+        $('.sparql').DataTable({
+            paging: false
+        });
     });
 </script>
 </body>
