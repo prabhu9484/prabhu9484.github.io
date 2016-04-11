@@ -1,8 +1,26 @@
-# prabhu9484.github.io
-  Avifauna of Pong Lake
-  This prototype web-app is displays information of around 200 species of avifauna found in Pong Lake also known as Maharana Pratap Sagar in district Kangra, HP.
-  Currently we have linked to general information is text links.
-  The main flora-fauna heads are BIRDS, PLANTS and SNAKES found over a period of time ie months
-  We have displayed 1 bird
-  The static box gives the general spotting information of the bird, and on-hover, we get the scientific information from Wikipedia.
-  Please give feedback for this Prototype1  
+# [Start Bootstrap](http://startbootstrap.com/) - [3 Col Portfolio](http://startbootstrap.com/template-overviews/3-col-portfolio/)
+
+[3 Col Portfolio](http://startbootstrap.com/template-overviews/3-col-portfolio/) is a three column portfolio template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+
+## Getting Started
+
+To use this template, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-3-col-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/3-col-portfolio/).
+
+## Creator
+
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-3-col-portfolio/blob/gh-pages/LICENSE) license.

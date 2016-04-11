@@ -194,11 +194,7 @@ Please give feedback for this Prototype1">
 </style>
 <![endif]-->
 <!-- END SimplyInstagram IE -->
-<style>
-tr{
-height:250px;
-}
-</style>
+
 
 
 <script type="text/javascript">var TubePressJsConfig = {"urls":{"base":"http:\/\/diff.co.in\/wp-content\/plugins\/tubepress","usr":"http:\/\/diff.co.in\/wp-content\/tubepress-content","ajax":"http:\/\/diff.co.in\/wp-admin\/admin-ajax.php"}};</script>
@@ -318,14 +314,13 @@ height:250px;
 		
 			<!-- MENU WRAP -->
 			<div id="menu-wrap">
-							<h1 style="text-align:center; width:auto;"><a href="https://en.wikipedia.org/wiki/Maharana_Pratap_Sagar" target="_blank">Avifauna of Pong Lake</a></h1>
-<div style="margin:auto; width:218px; padding-top:18px;">
+							<h1 style="text-align:center;"><a href="https://en.wikipedia.org/wiki/Maharana_Pratap_Sagar" target="_blank">Avifauna of Pong Lake</a>
 <form style="float:right;">
   Search:
-  <input type="text" name="Bird name or property"><br>
+  <input type="text" name="firstname"><br>
 </form>
-</div>
 
+</h1>
 
 			
 				<!-- MAIN -->
@@ -444,7 +439,6 @@ height:250px;
 			<div class="clear"></div>
 			
 <!-- BEGIN S4 -->
-<!--div id="page5" style = "width: 974px;"-->
 <div id="page5">
 	
 	<!-- MAIN PAGE CONTENT -->
@@ -474,16 +468,16 @@ height:250px;
 				<!-- CONTENT -->
 				<div style="margin-bottom: 10px; margin-top: 10px;">
 	<div id="first_date" class="decorate" style="float:left;">BIRDS</div>
-	<div id="second_date" class="decorate" style="float:left;"><a href="https://en.wikipedia.org/wiki/Maharana_Pratap_Sagar">ABOUT PONG</a></div>
-	<div id="third_date" class="decorate" style="float:left;"><a href="#">PROJECT</a></div>
-	<div id="fourth_date" class="decorate" style="float:left;"><a href="http://mind42.com/public/acc91334-b2f2-4a8b-ab78-c7cdf0d24113?rel=pmb">CONTACT</a></div>
+	<div id="second_date" class="decorate" style="float:left;"><a href="https://en.wikipedia.org/wiki/Maharana_Pratap_Sagar" target="_blank">ABOUT PONG</a></div>
+	<div id="third_date" class="decorate" style="float:left;"><a href="#" target="_blank">PROJECT</a></div>
+	<div id="fourth_date" class="decorate" style="float:left;"><a href="http://mind42.com/public/acc91334-b2f2-4a8b-ab78-c7cdf0d24113?rel=pmb" target="_blank">CONTACT</a></div>
 </div>
 
 	<div class="schedule-container border" id="first_date_div">
 	            
 	    <div class="heading">
 	        <span class="venue"></span>
-	        <span class="venue-1" style="margin-left:132px;">Featured Birds</span>
+	        <span class="venue-1">Featured Bird</span>
 	        <!--span class="venue-2">DRYLAND</span-->
 	        
 	    </div>
@@ -589,48 +583,14 @@ height:250px;
 	        </div-->
 
 
-	        <div class="listing-TIPA" id="ankho_dekhi_2" style="top:33px;height:655px; width:496px !important; left:15px !important;">
+	        <div class="listing-TIPA" id="ankho_dekhi_2" style="top:30px;height:290px; width:440px !important;">
 		        <!--a class="venue" href="#">6:00 PM</a-->
-	            <br/><a title="White Breasted Waterhen" class="band" style="text-align:center;font-size:12px !important; line-height:14px !important;" target="_blank" href="https://en.wikipedia.org/wiki/White-breasted_waterhen" target="_blank">White Breasted Waterhen</a><a class="band" href="#" style="text-align:center; font-size:12px !important; line-height:14px !important;">Toggle Right Pane</a>
-<br/>
-<a href="/wiki/File:White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg" class="image" style="padding-right:10px;"><img style="margin:auto; display:block;"alt="White-breasted Waterhen (Amaurornis phoenicurus).jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/220px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg" width="220" height="176" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/330px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/440px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 2x" data-file-width="800" data-file-height="640" /></a>
+	            <br/><a title="White Breasted Waterhen" class="band" target="_blank" href="https://en.wikipedia.org/wiki/White-breasted_waterhen" target="_blank">White Breasted Waterhen</a><br/>
+<a href="/wiki/File:White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg" class="image" style="float:left; padding-right:10px;"><img alt="White-breasted Waterhen (Amaurornis phoenicurus).jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/220px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg" width="220" height="176" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/330px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/440px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 2x" data-file-width="800" data-file-height="640" /></a>
 
+<span class="text-desc" >Amaurornis phoenicurus<b><i>Size - 32cm</i></b><br/>Diagnositc Features - Adult has grey upperparts and white face, forneck and breast. Undertail coverts rufous-cinnamon.<br/>Occurence - Resident in Ponds and Terrace swamps. Victim due to concreting of village ponds as its hiding, feeding and breeding habitat is disturbed.
+</span>
 <span>
-
-<div class="thumb tright" style="width:186px; margin:auto;">
-<div class="thumbinner" style="width:222px;">
-<div class="mediaContainer" style="width:220px"><audio id="mwe_player_0" poster="/w/resources/assets/file-type-icons/fileicon-ogg.png" controls="" preload="none" style="width:185px" class="kskin" data-durationhint="16.2" data-startoffset="0" data-mwtitle="AmaurornisPhoenicurusCall.ogg" data-mwprovider="wikimediacommons">
-<source src="//upload.wikimedia.org/wikipedia/commons/b/b5/AmaurornisPhoenicurusCall.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Original Ogg file (26 kbps)" data-shorttitle="Ogg source" data-width="0" data-height="0" data-bandwidth="25613" />Sorry, your browser either has JavaScript disabled or does not have any supported player.<br />
-You can <a href="//upload.wikimedia.org/wikipedia/commons/b/b5/AmaurornisPhoenicurusCall.ogg">download the clip</a> or <a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TimedMediaHandler/Client_download">download a player</a> to play the clip in your browser.</audio></div>
-<div class="thumbcaption">
-<div class="magnify"><a href="/wiki/File:AmaurornisPhoenicurusCall.ogg" class="internal" title="Enlarge"></a></div>
-</div>
-</div>
-</div>
-</span>
-
-
-<span class="text-desc" style="margin-top: 14px; text-align: center; font-size: 12px !important; line-height: 11px !important;">Amaurornis phoenicurus<b><i>Size - 32cm</i></b><br/>Diagnositc Features - Adult has grey upperparts and white face, forneck and breast. Undertail coverts rufous-cinnamon.<br/>Occurence - Resident in Ponds and Terrace swamps. Victim due to concreting of village ponds as its hiding, feeding and breeding habitat is disturbed.<br/><br/>============<br/><br/>
-Kingdom: Animalia<br/>
-Phylum:	Chordata<br/>
-Class:	Aves<br/>
-Order:	Gruiformes<br/>
-Family:	Rallidae<br/>
-Genus:	Amaurornis<br/>
-Species:	A. phoenicurus<br/>
-Binomial name: Amaurornis phoenicurus<br/>
-Binomial authority: Pennant, 1769<br/><br/>============<br/><br/>
-DBpedia Related Categories<br/><br/>
-Birds_of_Bangladesh<br/>
-Rails<br/>
-Birds_of_India<br/>
-Articles_containing_video_clips<br/>
-Birds_of_Pakistan<br/>
-Birds_of_the_Philippines<br/>
-Amaurornis<br/>
-Birds_of_Sri_Lanka<br/>
-</span>
-<!--span>
 
 <div class="thumb tright">
 <div class="thumbinner" style="width:222px;">
@@ -642,7 +602,7 @@ You can <a href="//upload.wikimedia.org/wikipedia/commons/b/b5/AmaurornisPhoenic
 </div>
 </div>
 </div>
-</span-->
+</span>
 <br>
 
 	        </div>
@@ -654,31 +614,32 @@ You can <a href="//upload.wikimedia.org/wikipedia/commons/b/b5/AmaurornisPhoenic
 		<p class="eventinfo-description" style=""></p>
 	</div>
 	
-<div class="event-info" id="ankho_dekhi_2-hover" style="top: 10px; display:block;">
-<!--div class="event-info" id="ankho_dekhi_2-hover" style="top: 10px;"-->		
-
+<div class="event-info" id="ankho_dekhi_2-hover" style="top: 10px;">
+		
 	<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div>
-<div style="text-align: center; background-color: rgb(235,235,210); padding: 8px;">Related Birds</div>
+<table class="infobox biota" style="text-align: left; width: 365px; font-size: 100%; height: 700px">
+<tr>
+<th colspan="2" style="text-align: center; background-color: rgb(235,235,210); height: 12px;">Related Birds</th>
 <!--th colspan="2" style="text-align: center; background-color: rgb(235,235,210)">{# SELECT ?bird_name 
                 WHERE { ?x dbp:binomial "Amaurornis phoenicurus"@en; foaf:name ?bird_name }
              }</th-->
-
-
-<table class="infobox biota" style="text-align: left; width: 365px; font-size: 100%; height: 700px">
+</tr>
+<tr>
+<td colspan="0" style="text-align: center">
 <tr>
 <td colspan="4" style="text-align: center">
-<a href="/wiki/File:Grus_antigone_Luc_viatour.jpg" class="image"><img alt="Grus antigone Luc viatour.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Grus_antigone_Luc_viatour.jpg/220px-Grus_antigone_Luc_viatour.jpg" width="220" height="219" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Grus_antigone_Luc_viatour.jpg/330px-Grus_antigone_Luc_viatour.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Grus_antigone_Luc_viatour.jpg/440px-Grus_antigone_Luc_viatour.jpg 2x" data-file-width="2300" data-file-height="2287" /></a><br><span>Sarus Crane - Grus antigone antigone</span>
+<a href="/wiki/File:White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg" class="image"><img alt="White-breasted Waterhen (Amaurornis phoenicurus).jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/220px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg" width="220" height="276" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/330px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/440px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 2x" data-file-width="800" data-file-height="640" /></a><br><span>White-breasted Waterhen - Amaurornis phoenicurus</span>
 </td>
 <td>
-<a href="/wiki/File:Ralaqu.jpg" class="image"><img alt="Ralaqu.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ralaqu.jpg/220px-Ralaqu.jpg" width="220" height="147" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ralaqu.jpg/330px-Ralaqu.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ralaqu.jpg/440px-Ralaqu.jpg 2x" data-file-width="2501" data-file-height="1670" /></a><br><span>Water rail - Rallus aquaticus</span>
+<a href="/wiki/File:White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg" class="image"><img alt="White-breasted Waterhen (Amaurornis phoenicurus).jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/220px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg" width="220" height="276" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/330px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/440px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 2x" data-file-width="800" data-file-height="640" /></a><br><span>White-breasted Waterhen - Amaurornis phoenicurus</span>
 </td>
 </tr>
 <tr>
 <td colspan="4" style="text-align: center">
-<a href="/wiki/File:Almost!_(6165018831).jpg" class="image"><img alt="Almost! (6165018831).jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Almost%21_%286165018831%29.jpg/220px-Almost%21_%286165018831%29.jpg" width="220" height="165" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Almost%21_%286165018831%29.jpg/330px-Almost%21_%286165018831%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/43/Almost%21_%286165018831%29.jpg/440px-Almost%21_%286165018831%29.jpg 2x" data-file-width="3329" data-file-height="2496" /></a><br><span>Baillon's crake - Zapornia pusilla</span>
+<a href="/wiki/File:White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg" class="image"><img alt="White-breasted Waterhen (Amaurornis phoenicurus).jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/220px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg" width="220" height="276" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/330px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/440px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 2x" data-file-width="800" data-file-height="640" /></a><br><span>White-breasted Waterhen - Amaurornis phoenicurus</span>
 </td>
 <td>
-<a href="/wiki/File:Ruddy-breasted_Crake_(Porzana_fusca)_in_Kolkata_I_IMG_2677.jpg" class="image"><img alt="Ruddy-breasted Crake (Porzana fusca) in Kolkata I IMG 2677.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ruddy-breasted_Crake_%28Porzana_fusca%29_in_Kolkata_I_IMG_2677.jpg/220px-Ruddy-breasted_Crake_%28Porzana_fusca%29_in_Kolkata_I_IMG_2677.jpg" width="220" height="178" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ruddy-breasted_Crake_%28Porzana_fusca%29_in_Kolkata_I_IMG_2677.jpg/330px-Ruddy-breasted_Crake_%28Porzana_fusca%29_in_Kolkata_I_IMG_2677.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ruddy-breasted_Crake_%28Porzana_fusca%29_in_Kolkata_I_IMG_2677.jpg/440px-Ruddy-breasted_Crake_%28Porzana_fusca%29_in_Kolkata_I_IMG_2677.jpg 2x" data-file-width="743" data-file-height="600" /></a><br><span>Ruddy-breasted crake - Porzana fusca</span>
+<a href="/wiki/File:White-breasted_Waterhen_(Amaurornis_phoenicurus).jpg" class="image"><img alt="White-breasted Waterhen (Amaurornis phoenicurus).jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/220px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg" width="220" height="276" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/330px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/67/White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg/440px-White-breasted_Waterhen_%28Amaurornis_phoenicurus%29.jpg 2x" data-file-width="800" data-file-height="640" /></a><br><span>White-breasted Waterhen - Amaurornis phoenicurus</span>
 </td>
 </tr>
 
@@ -1684,10 +1645,11 @@ Four lives intersect along the Ganges: a low caste boy hopelessly in love, a dau
 		function () {
   			$("#ankho_dekhi_1-hover").removeClass("event-visible");
   		});
+		/*
 		$("#ankho_dekhi_2").click(function(){
 		   $("#ankho_dekhi_2-hover").slideToggle();
 		});
-		
+		*/		
 
   		$("#soundphiles").hover(function(){
     		$("#soundphiles-hover").addClass("event-visible");
@@ -1923,7 +1885,7 @@ Four lives intersect along the Ganges: a low caste boy hopelessly in love, a dau
 			<!-- END POST -->
 			</div>
 		<div id="gmap">		
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216493.1494071548!2d75.92272261092077!3d32.02309130606206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b6949c367d759%3A0xfd227fc5679c2f72!2sMaharana+Pratap+Sagar%2C+Himachal+Pradesh!5e0!3m2!1sen!2sin!4v1451459127510" width="438" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216493.1494071548!2d75.92272261092077!3d32.02309130606206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b6949c367d759%3A0xfd227fc5679c2f72!2sMaharana+Pratap+Sagar%2C+Himachal+Pradesh!5e0!3m2!1sen!2sin!4v1451459127510" width="438" height="480" frameborder="0" style="border:0" allowfullscreen></iframe-->
 		</div>
 		<!-- END SINGLE CONTENT -->
 		</div>
