@@ -1,6 +1,6 @@
-jQuery.getJSON('bird.json', function(bird) {
-    var template = jQuery('#personTpl').html();
-    var html = Mustache.to_html(template, bird);
-    jQuery('#sampleArea').html(html);
+$.getJSON('bird.json', function(bird) {
+  var template = $('#personTpl').html();
+  var compiled = Handlebars.compile(template)
+  var html = compiled(bird)
+  $('#sampleArea').html(html);
 });
-
