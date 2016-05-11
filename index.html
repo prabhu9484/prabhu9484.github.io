@@ -1,11 +1,34 @@
-<script type="text/html" src="https://cdnjs.com/libraries/mustache.js/" ></script>
-<script src="https://code.jquery.com/jquery-2.2.3.js" ></script>
-<script src="custom.js" ></script>
-<script id="personTpl" type="text/template">
-<table>
-<tr>
-<td>BIRD NAME</td><td>BIO NAME</td><td>IMAGE</td><td>DESCRIPTION</td><td>ORDER</td><td>FAMILY</td><td>GENUS</td><td>SPECIES</td><td>BIN AUTH</td><td></td>
-</tr>
-<td>{{firstName}}</td><td>{{lastName}}</td><td>{{bird.results.bindings[0].BIRD_NAME.value}}</td><td>{{bird.results.bindings[0].BIO_NAME.value}}</td><td><img src="{{bird.results.bindings[0].IMAGE.value}}"/></td><td>{{bird.results.bindings[0].BIRD_DESCRIPTION.value}}</td><td>{{bird.results.bindings[0].ORDER.value}}</td><td>{{bird.results.bindings[0].FAMILY.value}}</td><td>{{bird.results.bindings[0].GENUS.value}}</td><td>{{bird.results.bindings[0].SPECIES.value}}</td><td>{{bird.results.bindings[0].BIN_AUTH.value}}</td></table>
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<title>Pong Lake</title>
+	<script src="https://code.jquery.com/jquery-2.2.3.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js" ></script>	
+</head>
+<body>	
+	<template id="personTpl">		
+		<table>
+			<tr>
+				<td>BIRD NAME</td><td>BIO NAME</td><td>IMAGE</td><td>DESCRIPTION</td><td>ORDER</td><td>FAMILY</td><td>GENUS</td><td>SPECIES</td><td>BIN AUTH</td><td></td>
+			</tr>
+			<tr>
+				<td>{{results.bindings.[0].BIRD_NAME.value}}</td>
+				<td>{{results.bindings.[0].BIO_NAME.value}}</td>
+				<td><img src="{{results.bindings.[0].IMAGE.value}}"/></td>
+				<td>{{results.bindings.[0].BIRD_DESCRIPTION.value}}</td>
+				<td>{{results.bindings.[0].ORDER.value}}</td>
+				<td>{{results.bindings.[0].FAMILY.value}}</td>
+				<td>{{results.bindings.[0].GENUS.value}}</td>
+				<td>{{results.bindings.[0].SPECIES.value}}</td>
+				<td>{{results.bindings.[0].BIN_AUTH.value}}</td>
+			</tr>
+		</table>
+	</template>	
+	<div id=sampleArea></div>
+	<script src="custom.js" ></script>
+</body>
+</html>
+
+
+
 
